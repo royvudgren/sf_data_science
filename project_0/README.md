@@ -1,12 +1,12 @@
 # Project 0. Guess a number
 
 ## Index
-[1. Project description](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Project-description)
-[2. Case description](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Case-description)
-[3. Brief info about data](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Brief-info-about-data)
-[4. Stages of work on the project](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Stages-of-work-on-the-project)
-[5. Results](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Results)
-[6. Conclusion](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Conclusion)
+1. [Project description](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Project-description)
+2. [Case description](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Case-description)
+3. [Brief info about data](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Brief-info-about-data)
+4. [Stages of work on the project](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Stages-of-work-on-the-project)
+5. [Results](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Results)
+6. [Conclusion](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Conclusion)
 
 ### Project description
 Find out the number guessed by the computer in the minimum number of attempts
