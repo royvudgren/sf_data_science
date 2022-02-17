@@ -17,14 +17,18 @@ Find out the number guessed by the computer in the minimum number of attempts
 A programm which can find out the number guessed by the computer in the minimum number of attempts
 
 **Terms of competition**
-- A computer guesses integer in range of 1 to 100. This number must be guessed. By "guess" it is meant to write a programm which can guess the number;
+- A computer guesses integer in range of 1 to 100. This number must be guessed. By "guessed" it is meant to write a programm which can pick a guessed number from a stated range;
 - An algorithm must consider if the estimated number is greater or less than the guessed one.
 
 **Quality metric**
 The results are evaluated by average number of attempts with 1000 repetitions.
 
 **Field of practice**
-The practice in quality python code writing.
+- The practice in quality python code writing;
+- The practice in IDE work;
+- The practice in GitHub work.
+
+:arrow_up:[go to index](https://github.com/royvudgren/sf_data_science/tree/main/project_0/README.md#Index)
 
 ### Brief info about data
 ...

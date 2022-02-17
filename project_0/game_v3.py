@@ -3,7 +3,7 @@
 
 import numpy as np
 
-def random_predicter(number:int=1) -> int:
+def random_predict(number:int=1) -> int:
     """Random number guesser
 
     Args:
@@ -36,11 +36,11 @@ def random_predicter(number:int=1) -> int:
                 break #cycle end after correct guess
     return(count)
 
-def score_gameer(random_predicter) -> int:
+def score_game(random_predict) -> int:
     """Average amount of attempts to guess a number in 1000 reps
 
     Args:
-        random_predicter ([type]): guess function
+        random_predict ([type]): guess function
 
     Returns:
         int: average amount of attempts
@@ -50,7 +50,7 @@ def score_gameer(random_predicter) -> int:
     random_array = np.random.randint(1,101, size=(1000)) # Made a list of numbers
     
     for number in random_array:
-        count_ls.append(random_predicter(number))
+        count_ls.append(random_predict(number))
         
     score = int(np.mean(count_ls))
     print(f"The algorithm guesses a number in an average of {score} attempts")
@@ -58,4 +58,4 @@ def score_gameer(random_predicter) -> int:
 
 if __name__=='__main__':
     # RUN
-    score_gameer(random_predicter)
+    score_game(random_predict)
