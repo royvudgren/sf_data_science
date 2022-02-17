@@ -12,15 +12,15 @@ def random_predict(number:int=1) -> int:
     Returns:
         int: Amount of attempts
     """
-    count = 1
+    count = 1 
     left_border = 1
     right_border = 100
-    predict = round((left_border+right_border)/2)
+    predict = round((left_border+right_border)/2) # Declare a number as a middle value from the range
     
     if not predict==number:
-        while True:
+        while True: # A loop to decrease the range by narrowing the borders
             count += 1 
-            if number > predict:
+            if number > predict: 
                 left_border = predict
                 if left_border!=right_border-1:
                     predict = round((left_border+right_border)/2)
@@ -33,7 +33,7 @@ def random_predict(number:int=1) -> int:
                 else:
                     predict = left_border
             elif number==predict:
-                break #cycle end after correct guess
+                break
     return(count)
 
 def score_game(random_predict) -> int:
@@ -46,8 +46,8 @@ def score_game(random_predict) -> int:
         int: average amount of attempts
     """
     count_ls = []
-    np.random.seed(1) # fix the seed for reproducibility
-    random_array = np.random.randint(1,101, size=(1000)) # Made a list of numbers
+    np.random.seed(1) # Fix the seed for reproducibility
+    random_array = np.random.randint(1,101, size=(1000)) # Make a list of numbers
     
     for number in random_array:
         count_ls.append(random_predict(number))
